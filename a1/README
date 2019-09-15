@@ -1,0 +1,18 @@
+Zihan Yang
+20605772
+z272yang
+
+I did this assignment using c++11 standard, under student environment.
+
+to run the test:
+	1. open 2 termials, one for server, one for client
+	2. unzip the zip file
+	3. insert command "make" to compile server & client
+	4. run ./server.sh <req_code> to open server on one terminal, and you can see the n_port after run the command
+	5. run ./client.sh <server address> <n_port> <req_code> <msg> to open client on another terminal
+	req_code should be the same number on both server and client
+	server address is the address of server
+	n_port is the port # server create randomly
+	msg is the messasge you client wants to send to server
+
+
